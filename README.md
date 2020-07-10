@@ -21,13 +21,15 @@ create a git repo
 
 - [using git with jetbrains ides - jetbrains](https://www.jetbrains.com/help/pycharm/contribute-to-projects.html)
 
-- [] ()
 
-- [] ()
+## Download Git GUI Tools
 
-- [] ()
+- [GitKraken](https://www.gitkraken.com/)
+- [UnGit](https://github.com/FredrikNoren/ungit)
+- [Aurees](https://aurees.com/)
+- [GitAhead](https://gitahead.github.io/gitahead.com/)
+- [GitBlade](https://gitblade.com/)
+- [GitFiend](https://gitfiend.com/)
 
-- [] ()
 
-- [] ()
 
