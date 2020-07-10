@@ -6,19 +6,12 @@ create a git repo
 
 ## Important Links for Learning git (found on google)
 -  [git fetch - git scm](https://git-scm.com/docs/git-fetch#:~:text=When%20git%20fetch%20is%20run,branch%20but%20I%20do%20not)
-
 - [remote repository connection - git tower](https://www.git-tower.com/learn/git/ebook/en/command-line/remote-repositories/connecting-remote-repositories)
-
 - [why stage before commit - stackoverflow](https://stackoverflow.com/questions/4878358/why-would-i-want-stage-before-committing-in-git/62807003#62807003)
-
 - [difference between clone and fork - toolsqa](https://www.toolsqa.com/git/difference-between-git-clone-and-git-fork/#:~:text=Forking%20is%20a%20concept%20while,files%20to%20the%20local%20machine.)
-
 - [remote access errors - stackoverflow](https://stackoverflow.com/questions/25927914/git-error-please-make-sure-you-have-the-correct-access-rights-and-the-reposito)
-
 - [Difference between pull and clone - stackoverflow](https://stackoverflow.com/questions/3620633/what-is-the-difference-between-pull-and-clone-in-git)
-
 - [fetch vs pull - freecodecamp](https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository.)
-
 - [using git with jetbrains ides - jetbrains](https://www.jetbrains.com/help/pycharm/contribute-to-projects.html)
 
 
