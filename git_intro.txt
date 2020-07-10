@@ -1,0 +1,119 @@
+https://www.theodinproject.com/courses/web-development-101/lessons/introduction-to-git
+
+A save in a text editor records all of the words in a document as a single file. 
+You are only ever given one record of the file, such as essay.doc, 
+unless you make duplicate copies (which is difficult to remember to do and keep track of)
+
+However, a save in Git records differences in the files and folders AND keeps a historical record of each save. 
+This feature is a game changer. As an individual developer, 
+Git enables you to review how your project grows and to easily look at or restore file states from the past. 
+Once connected to a network, Git allows you to push your project to GitHub for sharing and collaborating with other developers.
+
+While Git works on your local machine, GitHub is a remote storage facility on the web for all your coding projects.
+This means that by learning Git, you will get to showcase your portfolio on GitHub!
+This is really important because almost all software development companies consider using Git to be an essential skill for modern web developers.
+Having a GitHub portfolio will provide proof to future potential employers as to what you are capable of.
+
+
+General Notes:
+==============
+- What is “version control”, and why should you care? 
+    Version control is a system that records changes to a file or set of files over time so that you can recall specific versions later.
+
+Note: If you are a graphic or web designer and want to keep every version of an image or layout (which you would most certainly want to), a Version Control System (VCS) is a very wise thing to use.
+
+- Why is git so useful?
+    It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. 
+
+- What is the differences between local VCS, centeralized VCS, and a distributed VCS?
+    local VCS:
+            a simple database that kept all the changes to files under revision control (ex: rcs). It works by keeping patch sets (that is, the differences between files) in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.
+
+    centeralized VCS:
+            The next major issue that people encounter is that they need to collaborate with developers on other systems. To deal with this problem, Centralized VCS (CVCSs) were developed. These systems (such as CVS, Subversion, and Perforce) have a single server that contains all the versioned files, and a number of clients that check out files from t
+            hat central place. For many years, this has been the standard for version control.
+
+            This setup offers many advantages, especially over local VCSs. For example, everyone knows to a certain degree what everyone else on the project is doing. Administrators have fine-grained control over who can do what, and it’s far easier to administer a CVCS than it is to deal with local databases on every client.
+
+            However, this setup also has some serious downsides. The most obvious is the single point of failure that the centralized server represents. If that server goes down for an hour, then during that hour nobody can collaborate at all or save versioned changes to anything they’re working on. If the hard disk the central database is on becomes corrupted, and proper backups haven’t been kept, you lose absolutely everything — the entire history of the project except whatever single snapshots people happen to have on their local machines. Local VCS systems suffer from this same problem — whenever you have the entire history of the project in a single place, you risk losing everything.
+
+    distributed VCS:
+            In a DVCS (such as Git, Mercurial, Bazaar or Darcs), clients don’t just check out the latest snapshot of the files; rather, they fully mirror the repository, including its full history. Thus, if any server dies, and these systems were collaborating via that server, any of the client repositories can be copied back up to the server to restore it. Every clone is really a full backup of all the data. This allows you to set up several types of workflows that aren’t possible in centralized systems, such as hierarchical models.
+
+- What is git?
+    The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. These other systems (CVS, Subversion, Perforce, Bazaar, and so on) think of the information they store as a set of files and the changes made to each file over time (this is commonly described as delta-based version control).            
+
+    Git thinks of its data more like a series of snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a stream of snapshots.
+
+    We’ll explore some of the benefits you gain by thinking of your data this way when we cover Git branching in Git Branching.
+
+- What is integrity in Git?
+    Everything in Git is checksummed before it is stored and is then referred to by that checksum. This means it’s impossible to change the contents of any file or directory without Git knowing about it. This functionality is built into Git at the lowest levels and is integral to its philosophy. You can’t lose information in transit or get file corruption without Git being able to detect it.
+
+    The mechanism that Git uses for this checksumming is called a SHA-1 hash.
+    
+    You will see these hash values all over the place in Git because it uses them so much. In fact, Git stores everything in its database not by file name but by the hash value of its contents.    
+
+- How Git Generally only adds data?
+    When you do actions in Git, nearly all of them only add data to the Git database. It is hard to get the system to do anything that is not undoable or to make it erase data in any way. As with any VCS, you can lose or mess up changes you haven’t committed yet, but after you commit a snapshot into Git, it is very difficult to lose, especially if you regularly push your database to another repository.
+
+    This makes using Git a joy because we know we can experiment without the danger of severely screwing things up. For a more in-depth look at how Git stores its data and how you can recover data that seems lost, see Undoing Things.    
+
+- What are the 3 states in git?
+    Pay attention now — here is the main thing to remember about Git if you want the rest of your learning process to go smoothly. Git has three main states that your files can reside in: modified, staged, and committed:
+
+        + Modified means that you have changed the file but have not committed it to your database yet.
+
+        + Staged means that you have marked a modified file in its current version to go into your next commit snapshot.
+
+        + Committed means that the data is safely stored in your local database.
+
+    This leads us to the three main sections of a Git project: the working tree, the staging area, and the Git directory.  
+
+    The working tree is a single checkout of one version of the project. These files are pulled out of the compressed database in the Git directory and placed on disk for you to use or modify.
+
+    The staging area is a file, generally contained in your Git directory, that stores information about what will go into your next commit. Its technical name in Git parlance is the “index”, but the phrase “staging area” works just as well.
+
+    The Git directory is where Git stores the metadata and object database for your project. This is the most important part of Git, and it is what is copied when you clone a repository from another computer.  
+
+    
+- What is the baic git workflow?
+    The basic Git workflow goes something like this:
+
+        1- You modify files in your working tree.
+
+        2- You selectively stage just those changes you want to be part of your next commit, which adds only those changes to the staging area.
+
+        3- You do a commit, which takes the files as they are in the staging area and stores that snapshot permanently to your Git directory.
+
+Note: git is suitable for any type of knowledge workers (devs, designers, authers...etc) [in common: create things, save things, edit things, save the thing again].
+
+Note: things we need to know: who made the change, when, why, the change itself.
+* for more info about Git & GitHub: https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s
+QndA:
+=====
+1)> What Git and GitHub are? What is the differences between the two?
+A-  Git: 
+        
+    GitHub:
+    The differences:
+
+2)> What are the differences between Git and a text editor in terms of what they save and their record keeping?
+A-  
+
+3)> Does Git work at a local or remote level?
+A- 
+
+4)> Why is Git useful for an individual developer?
+A- 
+
+5)> Why are Git and GitHub useful for a team of developers?
+A- 
+
+
+Produced By (R}AM#UN>)    
+Coded By (R}AM#UN>)
+
+
+// TODO: a python script of a notebook for q and a (named qnda)
+// TODO: a python script of a notebook for general notes and tips under headlines (named notally)

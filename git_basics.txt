@@ -1,0 +1,29 @@
+1)> Basic Termonlogy
+====================
+- commits: snapshots of --> structure of CWD & contents of files in a specific moment in time.
+- repository: a timeline of commits and branches (A repository contains all project files, including the revision history).
+- branches: new development paths that we can follow as long as we like without missing up original project.
+- master branch: the main branch of the project.
+- pull requests: a report of all changes made in a branch.
+- cloning: downloading the repo from github to work-on (same repo == same id).
+- pushing: uploading the repo to github.
+- forking: copying the repository from one account on github to another (entirely new repo == not the same repo == different ids).
+
+*Note: in order for pull requests on the same repo to work --> the admin must be cloning the repo (up to date) && the co-developer must push changes to remote repo (up to date)
+
+2)> Basic Git Commands
+======================
+
+- initializing a repository:
+----------------------------
+$ git init 
+
+- adding files to stage:
+------------------------
+$ git add filename.ext
+
+- commiting changes to repository (taking a snapshot):
+------------------------------------------------------
+snapshots are for selected files in the stage step "only".
+
+$ git commit -m "commit message"

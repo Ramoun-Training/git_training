@@ -1,0 +1,67 @@
+1)> Configure Git & GitHub
+===========================
+$ git config --global user.name "Your Name"
+$ git config --global user.email "yourname@example.com"
+
+- to enable colorful output w/ git:
+-----------------------------------
+$ git config --global color.ui auto
+
+- for verfication:
+------------------
+$ git config --get user.name
+$ git config --get user.email
+
+# If you already have an account, sign in. 
+# You do not need to use the same email address you used before,
+#  but it might be a good idea to use the same one to keep things simple.
+
+2)> Create an SSH Key
+=====================
+An SSH key is a cryptographically secure identifier.
+It’s like a really long password used to identify your machine.
+GitHub uses SSH keys to allow you to upload to your repository without having to type in your username and password every time.
+
+- to check if you have SSH:
+---------------------------
+> ls ~/.ssh/id_rsa.pub
+
+# If the message in the console contains No such file or directory, then you don’t have an SSH key, and you’ll need to create one. If you do not see No such file or directory in the output, you already have a key.
+
+- create an SSH key:
+--------------------
+To create a new SSH key, run the following command inside your terminal. The -C flag followed by your email address ensures that GitHub knows who you are.
+
+#>Note: The angle brackets (< >) in the code snippet below indicate that you should replace that part of the command with the appropriate information. Do not include the brackets themselves in your command. For example, if your email address is odin@valhalla.com, then you would type ssh-keygen -C odin@valhalla.com. You will see this convention of using angle brackets to indicate placeholder text used throughout The Odin Project’s curriculum and other coding websites, so it’s good to be familiar with what it means.
+
+$ ssh-keygen -C <youremail>
+
+- When it prompts you for a location to save the generated key, just push Enter.
+- Next, it will ask you for a password; enter one if you wish, but it’s not required.
+
+- link your SSH Key with GitHub
+-------------------------------
+Now, you need to tell GitHub what your SSH key is so that you can push your code without typing in a password every time.
+
+1- First, you’ll navigate to where GitHub receives our SSH key. Log into GitHub and click on your profile picture in the top right corner. Then, click on Settings in the drop-down menu.
+
+2- Next, on the left-hand side, click SSH and GPG keys. Then, click the green button in the top right corner that says New SSH Key. Name your key something that is descriptive enough for you to remember where it came from. Leave this window open while you do the next steps.
+
+3- Now you need to copy your public SSH key. To do this, we’re going to use a command called cat to read the file to the console. (Note that the .pub file extension is important in this case.)
+
+$ cat ~/.ssh/id_rsa.pub
+
+4- Highlight and copy the output, which starts with ssh-rsa and ends with your email address.
+
+5- Now, go back to GitHub in your browser window and paste the key you copied into the key field. Then, click Add SSH key. You’re done! You’ve successfully added your SSH key!
+
+
+- testing your key:
+-------------------
+Follow the directions in this article from GitHub (https://help.github.com/en/articles/testing-your-ssh-connection) to verify your SSH connection. If the output doesn’t correctly match up, then try going through these steps again or come to the Discord chat to ask for help.
+
+
+
+
+Produced By (R}AM#UN>) 
+Coded By (R}AM#UN>) 
