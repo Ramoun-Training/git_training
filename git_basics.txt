@@ -9,14 +9,32 @@
 - pushing: uploading the repo to github.
 - forking: copying the repository from one account on github to another (entirely new repo == not the same repo == different ids).
 
+2)> Important Notes:
+====================
+= Git is distributed (locally enabled), version contorl can happen on local computers  by cloning repositories & if a server-comonenet is needed for collabrtion --> github can be used.
+
+= 
+
 *Note: in order for pull requests on the same repo to work --> the admin must be cloning the repo (up to date) && the co-developer must push changes to remote repo (up to date)
 
-2)> Basic Git Commands
+3)> Basic Git Commands
 ======================
+
+- cloning a repository:
+-----------------------
+$ git clone <repo url.git>
 
 - initializing a repository:
 ----------------------------
-$ git init 
+$ git init [if <repo name> was added it's gonna create a repo from ..][if not --> it   is gonna create a repo from current dir]
+
+- adding a remote repository:
+-----------------------------
+$ git remote add <repo name - local> <repo url>
+
+- pulling a repository:
+-----------------------
+$ git pull <repo name>
 
 - adding files to stage:
 ------------------------
@@ -27,3 +45,31 @@ $ git add filename.ext
 snapshots are for selected files in the stage step "only".
 
 $ git commit -m "commit message"
+
+- switching branches:
+---------------------
+$git checkout -b <branch-name>
+$git checkout master 
+
+*** 
+ 1 ) Examples:
+***
+ramoun: $ git checkout master 
+ramoun: $ git commit -a -m "my new logo"
+ramoun: $ git push 
+
+tito: $ git checkout -b titoslogin
+tito: $ git commit -a -m "adding a login page"
+tito: $ git push origin titoslogin 
+
+#merging ramoun's and tito's work
+ramoun: $ git pull 
+ramoun: $ git merge titoslogin
+
+#Documentation
+$ git add -p my report.markdown
+$ git commit -m "Added latest stats"
+
+$ git log --graph --decorate --abrev-
+commit --all --pretty=oneline
+
