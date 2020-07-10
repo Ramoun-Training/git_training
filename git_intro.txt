@@ -90,6 +90,11 @@ Note: git is suitable for any type of knowledge workers (devs, designers, auther
 
 Note: things we need to know: who made the change, when, why, the change itself.
 * for more info about Git & GitHub: https://www.youtube.com/watch?v=1h9_cB9mPT8&feature=youtu.be&t=13s
+
+- Why staging is important?
+    1- Staging allows you to choose what files/dirs to commit next.
+    2- if 2 files or more are modiefied --> each file can be staged seprately so that seprate commits can be possible (i believe that feature could be added to commit command as an option but i'on know why they didn't do that)
+
 QndA:
 =====
 1)> What Git and GitHub are? What is the differences between the two?
