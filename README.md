@@ -34,9 +34,9 @@ create a git repo
 -----
 + These notes represent the understanding of the topic by (R}AM#UN>)
 + These notes are FULLY:
-+   -> Written By (R}AM#UN>)
-+   -> Coded By (R}AM#UN>)
-+   -> Produced By (R}AM#UN>)
-+   -> Created By (R}AM#UN>)
+    - Written By (R}AM#UN>)
+    - Coded By (R}AM#UN>)
+    - Produced By (R}AM#UN>)
+    - Created By (R}AM#UN>)
 -----
 
