@@ -30,5 +30,13 @@ create a git repo
 - [GitBlade](https://gitblade.com/)
 - [GitFiend](https://gitfiend.com/)
 
-
+## Credits
++ -----
++ These notes represent the understanding of the topic by (R}AM#UN>)
++ These notes are FULLY:
++   -> Written By (R}AM#UN>)
++   -> Coded By (R}AM#UN>)
++   -> Produced By (R}AM#UN>)
++   -> Created By (R}AM#UN>)
++ -----
 
