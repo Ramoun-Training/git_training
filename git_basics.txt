@@ -45,6 +45,10 @@ $ git remote add <repo name - local> <repo url>
 ------------------------------------------
 $ git pull <repo name>
 
+- adding .gitignore file:
+-------------------------
+.gitignore is a file that contains all types of files that we don't want to add to our git repo.
+
 - adding files to stage:
 ------------------------
 $ git add filename.ext
