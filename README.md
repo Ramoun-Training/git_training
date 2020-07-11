@@ -14,6 +14,12 @@ create a git repo
 - [fetch vs pull - freecodecamp](https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository.)
 - [using git with jetbrains ides - jetbrains](https://www.jetbrains.com/help/pycharm/contribute-to-projects.html)
 
+## Git & GitHub Training Links
+ - [GitHub Guides and Training - Youtube Channel](https://www.youtube.com/c/GitHubGuides/videos)
+ - [Git-SCM Docs](https://www.git-scm.com/documentaion)
+ - [Git Course by David Mahler - youtube](https://www.youtube.com/watch?v=uR6G2v_WsRA)
+ - [WL2 Playlist (*search for git tuts) - youtube](https://www.youtube.com/playlist?list=PLljsgSF6uYUdLs0xJghqP37bHv3JE1aKH)
+ - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
 
 ## Download Git GUI Tools
 
