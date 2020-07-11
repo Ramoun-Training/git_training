@@ -20,6 +20,8 @@
 3)> Basic Git Commands
 ======================
 
+*Note: for <file_name> you can add wild cards: '.', '*.html' ...etc.
+
 - git local configurations:
 ---------------------------
 -> The username and email: they are not credentials for any git/github sites -> they are local records to give credit for work done using git 
@@ -46,6 +48,10 @@ $ git pull <repo name>
 - adding files to stage:
 ------------------------
 $ git add filename.ext
+
+- unstaging a file:
+-------------------
+$ git rm --cached <file_name>
 
 - commiting changes to repository (taking a snapshot):
 ------------------------------------------------------
