@@ -94,7 +94,17 @@ Note: things we need to know: who made the change, when, why, the change itself.
 - Why staging is important?
     1- Staging allows you to choose what files/dirs to commit next.
     2- if 2 files or more are modiefied --> each file can be staged seprately so that seprate commits can be possible (i believe that feature could be added to commit command as an option but i'on know why they didn't do that)
-    3- gives you a chance if you wanna change your mind later --> you can unstage easilty but it is very hard to uncommit.    
+    3- gives you a chance if you wanna change your mind later --> you can unstage easilty but it is very hard to uncommit.
+
+- Why People Love Git?
+    1- Content not files : the level of percision of git is deeper than other traditional VCSs.Git can follow the move of source code from one file to another over a period of time.[https://progit.org/book/ch6-2.html]
+    2- Git's idea of the staging area allows you to elect which files to participate in the next commit. Rather than accedentily commiting something you didn't intend to, you must explicitly ask for which things should participate in the next commit.[https://progit.org/book/ch2-2.html]
+    3- Git is Open source & supports open source projects.[https://progit.org/book/ch5-2.html]
+    4- Git is distributed no centeralized.[https://progit.org/book/ch5-1.html]         
+    5- Conversations --> you can fire up a conversation about bringing a bit of code into a code base [http://help.GitHub.com/send-pull-requests/]
+    6- foucuses on People, not Tools. Git is so small and light so that you can focus on important things: writing good docs, building some good ui..etc.[https://oriel.ly/githubsocial]
+    7- it is like a journal of changes we're trying to make to the source code] not a backup[https://bit.ly/goodcommitmessages]  
+    8- git works entirely offline, not just online(commits,branches, merges, rebaes, resetting history, even searching thourgh historical events) - push and pull are used to exchange over some sort of conectivity.[http://whygitisbetterthanx.com/#everything-is-local]
 
 QndA:
 =====
