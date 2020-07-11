@@ -21,6 +21,8 @@ create a git repo
  - [WL2 Playlist (*search for git tuts) - youtube](https://www.youtube.com/playlist?list=PLljsgSF6uYUdLs0xJghqP37bHv3JE1aKH)
  - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
  - [authenticating with ssh - github docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+ - [push to github using ssh - stackoverflow](https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key)
+ - [Caching your GitHub credentials in Git](https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git)
 
 ## Download Git GUI Tools
 
