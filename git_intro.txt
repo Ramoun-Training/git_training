@@ -32,6 +32,13 @@ Note: If you are a graphic or web designer and want to keep every version of an 
         - revert back at any time
         - local & remote repos
 
+- What are the concepts of git in Summary?
+    - keeps track of code history 
+    - takes 'snapshots' of your files
+    - you decide when to take a snapshot by making a "commit"
+    - you can visit any snapshot at any time
+    - you can stage files before commiting
+    
 - What is the differences between local VCS, centeralized VCS, and a distributed VCS?
     local VCS:
             a simple database that kept all the changes to files under revision control (ex: rcs). It works by keeping patch sets (that is, the differences between files) in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.
