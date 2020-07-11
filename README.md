@@ -20,6 +20,7 @@ create a git repo
  - [Git Course by David Mahler - youtube](https://www.youtube.com/watch?v=uR6G2v_WsRA)
  - [WL2 Playlist (*search for git tuts) - youtube](https://www.youtube.com/playlist?list=PLljsgSF6uYUdLs0xJghqP37bHv3JE1aKH)
  - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
+ - [authenticating with ssh - github docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ## Download Git GUI Tools
 
