@@ -33,7 +33,7 @@ create a git repo
 ## Credits
 -----
 + These notes represent the understanding of the topic by (R}AM#UN>)
-+ These notes are FULLY:
++ These notes are **FULLY**:
     - Written By  (R}AM#UN>)
     - Coded By    (R}AM#UN>)
     - Produced By (R}AM#UN>)
