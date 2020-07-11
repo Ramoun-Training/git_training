@@ -39,8 +39,8 @@ $ git init [if <repo name> was added it's gonna create a repo from ..][if not --
 -----------------------------
 $ git remote add <repo name - local> <repo url>
 
-- pulling a repository:
------------------------
+- pulling latest from a remote repository:
+------------------------------------------
 $ git pull <repo name>
 
 - adding files to stage:
@@ -53,10 +53,16 @@ snapshots are for selected files in the stage step "only".
 
 $ git commit -m "commit message"
 
+- pushing to remote repository:
+-------------------------------
+*Note: a remote connection must be established first using ssh or https
+
+$ git push 
+
 - switching branches:
 ---------------------
-$git checkout -b <branch-name>
-$git checkout master 
+$ git checkout -b <branch-name>
+$ git checkout master 
 
 *** 
  1 ) Examples:
