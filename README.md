@@ -13,6 +13,9 @@ create a git repo
 - [Difference between pull and clone - stackoverflow](https://stackoverflow.com/questions/3620633/what-is-the-difference-between-pull-and-clone-in-git)
 - [fetch vs pull - freecodecamp](https://www.freecodecamp.org/news/git-fetch-vs-pull/#:~:text=git%20fetch%20is%20the%20command,changes%20from%20the%20remote%20repository.)
 - [using git with jetbrains ides - jetbrains](https://www.jetbrains.com/help/pycharm/contribute-to-projects.html)
+- [push to github using ssh - stackoverflow](https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key)
+- [Caching your GitHub credentials in Git](https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git)
+- [authenticating with ssh - github docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
 
 ## Git & GitHub Training Links
  - [GitHub Guides and Training - Youtube Channel](https://www.youtube.com/c/GitHubGuides/videos)
@@ -20,7 +23,8 @@ create a git repo
  - [Git Course by David Mahler - youtube](https://www.youtube.com/watch?v=uR6G2v_WsRA)
  - [WL2 Playlist (*search for git tuts) - youtube](https://www.youtube.com/playlist?list=PLljsgSF6uYUdLs0xJghqP37bHv3JE1aKH)
  - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
- - [authenticating with ssh - github docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+ - [GitTower](https://www.git-tower.com/)
+ 
 
 ## Download Git GUI Tools
 
