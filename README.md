@@ -25,7 +25,6 @@ create a git repo
  - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
  - [GitTower](https://www.git-tower.com/)
  
-
 ## Download Git GUI Tools
 
 - [GitKraken](https://www.gitkraken.com/)
