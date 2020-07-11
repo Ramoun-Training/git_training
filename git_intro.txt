@@ -25,6 +25,13 @@ Note: If you are a graphic or web designer and want to keep every version of an 
 - Why is git so useful?
     It allows you to revert selected files back to a previous state, revert the entire project back to a previous state, compare changes over time, see who last modified something that might be causing a problem, who introduced an issue and when, and more. Using a VCS also generally means that if you screw things up or lose files, you can easily recover. 
 
+    In Summary:
+        - distributed VCS
+        - coordinates work between multiple developers
+        - who made what changes and when
+        - revert back at any time
+        - local & remote repos
+
 - What is the differences between local VCS, centeralized VCS, and a distributed VCS?
     local VCS:
             a simple database that kept all the changes to files under revision control (ex: rcs). It works by keeping patch sets (that is, the differences between files) in a special format on disk; it can then re-create what any file looked like at any point in time by adding up all the patches.
@@ -42,7 +49,7 @@ Note: If you are a graphic or web designer and want to keep every version of an 
 
 - What is git?
     Git is VCS for tracking changes in computer files.
-    
+
     The major difference between Git and any other VCS (Subversion and friends included) is the way Git thinks about its data. Conceptually, most other systems store information as a list of file-based changes. These other systems (CVS, Subversion, Perforce, Bazaar, and so on) think of the information they store as a set of files and the changes made to each file over time (this is commonly described as delta-based version control).            
 
     Git thinks of its data more like a series of snapshots of a miniature filesystem. With Git, every time you commit, or save the state of your project, Git basically takes a picture of what all your files look like at that moment and stores a reference to that snapshot. To be efficient, if files have not changed, Git doesn’t store the file again, just a link to the previous identical file it has already stored. Git thinks about its data more like a stream of snapshots.
