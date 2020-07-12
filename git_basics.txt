@@ -74,6 +74,10 @@ $ git push
 $ git checkout -b <branch-name>
 $ git checkout master 
 
+- ignore changed files:
+-----------------------
+$ git update-index --assume-unchanged <path-of-modified-file>
+
 *** 
  1 ) Examples:
 ***
