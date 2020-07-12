@@ -78,6 +78,19 @@ $ git checkout master
 -----------------------
 $ git update-index --assume-unchanged <path-of-modified-file>
 
+- add to .gitignore:
+--------------------
+# add the following line to .gitignore
+/Hello.class
+
+# This will exclude Hello.class from git. If you have already committed it, run the following command:
+$ git rm Hello.class 
+
+# If you want to exclude all class files from git, add the following line to .gitignore:
+*.class
+
+for more info: https://stackoverflow.com/questions/4308610/how-to-ignore-certain-files-in-git
+
 *** 
  1 ) Examples:
 ***
