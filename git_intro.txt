@@ -142,10 +142,10 @@ A- at local level.
 
 4)> Why is Git useful for an individual developer?
 A- because it allows a developer to track changes done to a file in different times
-   in the past, review those changes & revert back to them if needed. Git enables you to review how your project grows and to easily look at or restore file states from the past.
+   in the past, review those changes & revert back to them if needed. Git enables you to review how your project grows and to easily look at or restore file states from the past (so If you realize halfway through that you've messed up, it's much easier to reset).
 
 5)> Why are Git and GitHub useful for a team of developers?
-A- because it allows teams to collaborate on the same project at the same time and tracks who did what change and when.
+A- because it allows teams to collaborate on the same project at the same time (changes made by different developers can be merged easily) and tracks who did what change and when. 
 
 
 
