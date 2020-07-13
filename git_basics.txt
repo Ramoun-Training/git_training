@@ -1,5 +1,6 @@
 1)> Basic Termonlogy
 ====================
+- Git is like a really epic save button for your files and directories. Officially, Git is a version control system.
 - commits: snapshots of --> structure of CWD & contents of files in a specific moment in time.
 - repository: a timeline of commits and branches (A repository contains all project files, including the revision history).
 - branches: new development paths that we can follow as long as we like without missing up original project.
