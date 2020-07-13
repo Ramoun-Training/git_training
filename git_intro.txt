@@ -36,7 +36,7 @@ Note: If you are a graphic or web designer and want to keep every version of an 
     - keeps track of code history 
     - takes 'snapshots' of your files
     - you decide when to take a snapshot by making a "commit"
-    - you can visit any snapshot at any time
+    - you can visit any snapshot at any time // TODO: try to vist an old snapshot.
     - you can stage files before commiting
     
 - What is the differences between local VCS, centeralized VCS, and a distributed VCS?
