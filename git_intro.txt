@@ -125,22 +125,27 @@ Note: things we need to know: who made the change, when, why, the change itself.
 QndA:
 =====
 1)> What Git and GitHub are? What is the differences between the two?
-A-  Git: 
+A-  Git: is a VCS that tracks changes of files in a dir.
         
-    GitHub:
-    The differences:
+    GitHub: is an online repositories container that allows you to (remote storage facility on the web for all repositories).
+
+    The differences: git is locally enabled vcs that allows working on files offline but github is online storage system for repositories with some of git's features but not all of them: (e.g: pull requests, do commits)
 
 2)> What are the differences between Git and a text editor in terms of what they save and their record keeping?
-A-  
+A-  a text editor: saves latest file content and overwrites old file contents and
+    provides only one version of a file with no ability to revert back to previous versions.
+
+    git: saves screenshots of a file in different save stages. So it provides the ability to revert back to (or view) old versions.
 
 3)> Does Git work at a local or remote level?
-A- 
+A- at local level.
 
 4)> Why is Git useful for an individual developer?
-A- 
+A- because it allows a developer to track changes done to a file in different times
+   in the past, review those changes & revert back to them if needed. Git enables you to review how your project grows and to easily look at or restore file states from the past.
 
 5)> Why are Git and GitHub useful for a team of developers?
-A- 
+A- because it allows teams to collaborate on the same project at the same time and tracks who did what change and when.
 
 
 
