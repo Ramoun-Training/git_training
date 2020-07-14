@@ -52,7 +52,8 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 <details>
 <summary>Explain what <code>origin</code> is in <code>git push origin master</code>.</summary>
 <ul><ul>
-    <li>In Git, <code>origin</code> is a placeholder name for the URL of the remote repository. Git sets up the origin by default when it clones a remote repository. You can use <code>origin</code> to access the remote repository without having to enter a full URL every time. <strong>This also means that you can have multiple remotes for a repository by giving each a unique name.</strong></li>
+    <li>In Git, <code>origin</code> is a placeholder name for the URL of the remote repository. Git sets up the origin by default when it clones a remote repository. You can use <code>origin</code> to access the remote repository without having to enter a full URL every time. <strong>This also means that you can have multiple remotes for a repository by giving each a unique name.</strong></li>    
+    <li>If there is only one remote to the repository, you can use <code>git push</code> directly.</li>
 </ul></ul>
 </details>
 
