@@ -65,6 +65,13 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 </ul></ul>
 </details>
 
+<details>
+<summary>How to createa a new branch?</summary>
+<ul><ul>
+    <li>In Git, to create a new branch, use <code>git branch &lt;branchname&gt;</code></li>
+</ul></ul>
+</details>
+
 ### Important Notes
 - The basic Git syntax is `program | action | destination`.
 - For further content about Git & GitHub: [Click Me](https://github.com/MrRamoun/curriculum/blob/master/web_development_101/git_basics/git_basics.md)
