@@ -16,6 +16,7 @@ create a git repo
 - [push to github using ssh - stackoverflow](https://stackoverflow.com/questions/14762034/push-to-github-without-a-password-using-ssh-key)
 - [Caching your GitHub credentials in Git](https://docs.github.com/en/github/using-git/caching-your-github-credentials-in-git)
 - [authenticating with ssh - github docs](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh)
+- [How To Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
 
 ## Git & GitHub Training Links
  - [GitHub Guides and Training - Youtube Channel](https://www.youtube.com/c/GitHubGuides/videos)
