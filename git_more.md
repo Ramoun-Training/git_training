@@ -67,7 +67,7 @@ In this lesson, we'll cover common Git commands used to manage your projects and
 
 ### Important Notes
 - The basic Git syntax is `program | action | destination`.
-- For further content about Git & GitHub --> [Click Me]("/home/ramoun/myStuff/Career/Contribution/Odin/curriculum/web_development_101/git_basics/git_basics.md")
+- For further content about Git & GitHub --> [Click Me]("https://github.com/MrRamoun/curriculum/blob/master/web_development_101/git_basics/git_basics.md")
 - see this article : [github in plain english](https://blog.red-badger.com/2016/11/29/gitgithub-in-plain-english)
 - learn Git with [Bitbucket](https://www.atlassian.com/git/tutorials/git-lfs)
 - for more help:
