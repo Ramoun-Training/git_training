@@ -19,6 +19,7 @@ create a git repo
 - [How To Create a Pull Request on GitHub](https://www.digitalocean.com/community/tutorials/how-to-create-a-pull-request-on-github)
 
 ## Git & GitHub Training Links
+ - [GitHub Guides - Docs](https://guides.github.com/activities/hello-world/)
  - [GitHub Guides and Training - Youtube Channel](https://www.youtube.com/c/GitHubGuides/videos)
  - [Git-SCM Docs](https://www.git-scm.com/documentaion)
  - [Git Course by David Mahler - youtube](https://www.youtube.com/watch?v=uR6G2v_WsRA)
