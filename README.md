@@ -26,6 +26,7 @@ create a git repo
  - [WL2 Playlist (*search for git tuts) - youtube](https://www.youtube.com/playlist?list=PLljsgSF6uYUdLs0xJghqP37bHv3JE1aKH)
  - [Everything I Wish I Knew When I Started Using GitHub](https://www.youtube.com/watch?v=KDUtjZHIx44)
  - [GitTower](https://www.git-tower.com/)
+ - [ِAtlassian](https://www.atlassian.com/)
  
 ## Download Git GUI Tools
 
